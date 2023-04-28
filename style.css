@@ -70,3 +70,23 @@
 .movie-item-star-icon {
     @apply h-5 w-5;
 }
+
+.movie-item-image-star-wrapper {
+    @apply relative;
+}
+
+.movie-item-image-star-content-wrapper {
+    @apply absolute top-0 right-0;
+}
+
+.movie-item-image-star-icon-wrapper {
+    @apply relative;
+}
+
+.movie-item-image-star-icon {
+    @apply h-16 w-16;
+}
+
+.movie-item-image-text-icon {
+    @apply text-black absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
+}
